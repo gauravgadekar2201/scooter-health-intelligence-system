@@ -1,0 +1,35 @@
+# ===== Environment / Secrets =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.txt
+
+# ===== Java / Spring Boot =====
+ApplicationSource/BackendJava/target/
+ApplicationSource/BackendJava/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.joblib
+*.pkl
+
+# ===== Node / React =====
+node_modules/
+dist/
+.vite/
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.iml
